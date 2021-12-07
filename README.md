@@ -8,3 +8,6 @@
 - cd to the clone folder and run "npm install && npm run dev"
 - Now run "php artisan serve"
 
+# How to populate data
+- run " php artisan tinker "
+- run " \App\Models\BlogPost::factory()->times(10)->create(); "
